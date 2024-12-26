@@ -1,0 +1,170 @@
+body.echo-perfil {
+    background-color: #F0F3F5;
+
+}
+body.dark-mode{
+    background-color: #111111;
+    
+}
+.container-config {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.componente {
+    height: 100%;
+    width: 240px;
+}
+
+.container-filho-config { 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-marinana {
+    width: 100%;
+    height: 70px;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.text-navbar {
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 20px;
+    padding-left: 25px;
+}
+
+.card-config {
+    height: 75%;
+    width: 40%;
+    margin: auto;
+    display: flex; 
+    padding: 10px;
+    flex-direction: column;
+    background-color: white; 
+    border-radius: 10px;
+}
+
+.separate {
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.separate p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#sac-sac{
+    margin-left: 25px;
+}
+
+.separate-b{
+    width: 100%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.coluna{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1.5px solid rgb(194, 192, 192);
+}
+
+.coluna .imgs{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgs img{
+    height: 50%;
+    cursor: pointer;
+}
+
+.coluna .titulo {
+    width: 95%;
+    height: 20%;
+    font-size: 12px;
+}
+
+.coluna .input-email{
+    width: 95%;
+    height: 27%;
+    font-size: 19px;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    font-size: 19px;
+    display: inline-block;
+    background-color: #F0F3F5;
+    border-radius: 7px;
+    padding-left: 7px;
+    margin-bottom: 10px;
+}
+
+.edit{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit label{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.coluna-button{
+    margin: auto;
+    height: 40%;
+    width: 15%;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 90px;
+}
+
+.sac{
+    display: none;
+}
+
+.separate-c{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.separate-c button{
+    margin: auto;
+    height: 30%;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}

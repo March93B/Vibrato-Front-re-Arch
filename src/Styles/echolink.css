@@ -1,0 +1,542 @@
+body.echolink {
+    background-color: #000000;
+    overflow-y: visible;
+
+}
+
+.nome-musica-content-echolink {
+    background-color: #ffffff65;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 13px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.nome-musica-content-echolink-nome {
+    margin-bottom: 7px;
+}
+
+.nome-nome-nome {
+    color: #000000;
+    font-size: 30px;
+}
+
+.comp-nome-nome {
+    color: #000000;
+    font-size: 24px;
+}
+
+.blur-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 1;
+    transition: 1 ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+}
+
+.blur-overlay-image {
+    max-width: 100%;
+    max-height: 100%;
+
+
+}
+
+.pai-echolink {}
+
+.preview-imagem {
+    width: 200px;
+}
+
+.preview-echolink {
+    width: 630px;
+    height: 180px;
+    margin-right: 70px;
+    margin-top: 45px;
+    background-color: #111111;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.preview-infos {
+    width: 300px;
+    height: 80px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.logos-link {
+    width: 30px;
+    height: 145px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.botao-play-pause {
+    cursor: pointer;
+}
+
+.botao-spotify {
+    cursor: pointer;
+    margin-left: 7px;
+
+}
+
+.artist-names-p {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.artist-feat-p {
+    font-weight: 0;
+    font-size: 17px;
+    color: #c9c9c9;
+}
+
+.imagem-echolink {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 1;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    object-fit: cover;
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    z-index: -1;
+    object-fit: cover;
+
+}
+
+.direita-echolink {
+    width: 100%;
+    position: absolute;
+    transition: all 0.5 ease;
+    height: 150%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.a3 {
+    width: 380px;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.pai-a3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 45px;
+}
+
+.nome-a3 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 28px;
+    color: #f3f2f2;
+    cursor: pointer;
+}
+
+.direita-filho-echolink {
+    width: 700px;
+    height: 975px;
+    margin-top: 30px;
+
+    justify-content: center;
+
+}
+
+.meio-filho-echolink {
+    width: 520px;
+    height: 975px;
+    margin-top: 30px;
+
+    justify-content: center;
+
+}
+
+.content-div-meio-echolink {
+    width: 82%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.content-div-direita-echolink {
+    width: 82%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content-div-esquerda-echolink {
+    width: 82%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.esquerda-filho-echolink {
+    width: 520px;
+    height: 975px;
+    margin-top: 30px;
+    justify-content: center;
+
+}
+
+.letra-echolink {
+    padding-left: 30px;
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    line-height: 30px;
+}
+
+.content-div-direita-filho-echolink {
+    width: 700px;
+    height: 1000px;
+    background-color: #1d1d1d;
+    border-radius: 10px 10px 10px 10px;
+    overflow: auto;
+    overflow-x: hidden;
+    margin-left: -30px;
+}
+
+
+.content-div-esquerda-filho-echolink {
+    width: 450px;
+    height: 450px;
+    border-radius: 0px 0px 10px 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-component {
+    background-color: rgb(255, 255, 255);
+}
+
+.last-component {
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid rgba(0, 0, 0, 0.164);
+
+}
+
+.links-echolink-component {
+    background-color: #111111;
+    width: 100%;
+    height: 95px;
+
+}
+
+.middle-component {
+    background-color: #ffffff;
+    border-top: 2px solid rgba(0, 0, 0, 0.164);
+
+}
+
+.links-echolink-component-spotify {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.links-echolink-component-spotify:hover {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+    background-color: #e7e7e7;
+    transition: 0.3s;
+}
+
+
+.imagem-component-links-seta {
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.content-div-esquerda-filho2-echolink {
+    width: 450px;
+    height: 650px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.imagem-component-links {
+    height: 41px;
+    width: 130px;
+
+}
+
+.imagem-component-links2 {
+    height: 25px;
+    width: 130px;
+    margin-top: 10px;
+}
+
+.imagem-component-links7 {
+    height: 25px;
+    width: 130px;
+    margin-top: 10px;
+}
+
+.imagem-component-links6 {
+    height: 25px;
+    width: 130px;
+    margin-top: 10px;
+}
+
+.imagem-component-links3 {
+    height: 60px;
+    width: 130px;
+}
+
+.imagem-component-links4 {
+    height: 65px;
+    width: 130px;
+    margin-top: -10px;
+}
+
+.btn-direita2 {
+
+    width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 30px;
+    margin-top: 25px;
+    background: linear-gradient(45deg, #2f88fcea 0%, #ff5db1e3 100%);
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+
+}
+
+.redes-icons-perfil-echolink {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.spotifyyy-echolink {
+    height: 35px;
+    cursor: pointer;
+}
+
+.twitterrrr-echolink {
+    height: 35px;
+    cursor: pointer;
+
+}
+
+.instaaaa-echolink {
+    cursor: pointer;
+
+    height: 35px;
+}
+
+.soundddd-echolink {
+    cursor: pointer;
+    height: 35px;
+}
+
+.soundddd-echolink2 {
+    cursor: pointer;
+    height: 27px;
+    margin-top: 5px;
+}
+
+.btn-direita2:hover {
+
+
+    background: linear-gradient(120deg, #2f88fcea 0%, #ff5db1e3 100%);
+
+}
+
+.particao-perfil-echolink {
+    height: 100%;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.redes-sociais-perfil-echolink {
+    margin-top: 30px;
+}
+
+.mid-box-perfil3-echolink {
+    width: calc(74% + 100px);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #1d1d1d;
+    border-radius: 10px 10px 10px 10px;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.mid-box-perfil4-echolink {
+    width: calc(71% + 100px);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 00px;
+    background-color: #252525;
+    margin-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    visibility: hidden;
+
+}
+
+/* img {
+    pointer-events: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  } */
+.botao-comp-echolink {
+    height: 35px;
+    width: 150px;
+    background-color: #111111;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+
+}
+.div-lyrics-lyrics{
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.comp-txt-echolink {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.circulo-echolink {
+    background-color: #1d1d1d;
+    width: 450px;
+    height: 270px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+@media only screen and (max-width: 1482px) {
+    .mid-box-perfil3-echolink {
+        width: 1200px;
+      
+    }
+}
+
+@media only screen and (max-width: 1224px) {
+  
+    .content-div-direita-filho-echolink {
+        width: 700px;
+        height: 1000px;
+        border-radius: 10px 10px 10px 10px;
+        overflow: auto;
+        overflow-x: hidden;
+        margin-left: 0px;
+    }
+    .mid-box-perfil3-echolink {
+        width: 700px;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        border-radius: 10px 10px 10px 10px;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;    
+    }
+    .particao-perfil-echolink {
+        height: 100%;
+        width: 700px;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .a3 {
+        width: 380px;
+        height: 300px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-right: 75px;
+    
+    }
+    .nome-a3 {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 28px;
+        color: #f3f2f2;
+        cursor: pointer;
+        margin-right: 80px;
+    }
+}

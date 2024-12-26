@@ -1,0 +1,59 @@
+.content-div-esquerda-filho-dashboard{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+    overflow: auto;
+}.auto-tabela{
+    width: 90%;
+
+}
+.dash-text{
+    width: 710px;
+    height: 70px;
+
+}
+.faixa-botao-exports{
+    display: flex;
+    justify-content: flex-end;
+}
+.dark-text{
+    color: white;
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+}
+#random-text{
+    background-color: white;
+    width: auto;
+    border-radius: 10px;
+
+}
+.titulo-tabela{
+height: 75px;
+font-size: 40px;
+color: black;
+}
+.texto-dashboard{
+    font-size: 50px;
+    color: black;
+
+}
+.direita-echo-dash {
+    width: 100%;
+    left: 217px;
+    position: absolute;
+    transition: all 0.5 ease;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 217px);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.table-cell {
+    font-size: 14px;
+  }

@@ -1,0 +1,226 @@
+body {
+    background-color: black;
+
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    width: 100%;
+    height: 900px;
+    background-image: url(backvibnewpng.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.titulo {
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo img {
+    height: 100%;
+    width: 460px;
+
+}
+
+.titulo p {
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+
+
+.card-b {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-card-a {
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(5, 5, 5);
+}
+
+.sub-card-a p {
+    font-size: 45px;
+    color: white;
+}
+
+.sub-card-b {
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #160031ec;
+}
+
+.cardb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 480px;
+    border-radius: 15px;
+    /* border: solid blue;  */
+
+}
+
+.cardb img {
+    border-radius: 15px 15px 0px 0px;
+    height: 62.2%;
+}
+
+.logo-home {
+    color: white;
+    font-size: 100px;
+}
+
+.cardb h1 {
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    color: white;
+}
+
+.h1-home {
+    margin-bottom: 30px;
+}
+
+.card-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 15px 15px;
+    height: 27.8%;
+    width: 100%;
+}
+
+#txt1 {
+    background-color: rgba(1, 57, 117, 0.6);
+}
+
+#txt2 {
+    background-color: rgba(20, 34, 255, 0.6);
+}
+
+#txt3 {
+    background-color: rgba(36, 0, 115, 1);
+}
+
+.cardb p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    font-size: 20px;
+
+    color: white;
+}
+
+.card-c {
+    width: 100%;
+    height: 900px;
+
+}
+
+.separador {
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.sub-card-c {
+    width: 50%;
+    height: 750px;
+
+}
+
+.container-titulo {
+    display: flex;
+    flex-direction: column;
+    width: 41%;   
+}
+.texto-inicio-echo{
+font-weight: 100;
+line-height: 30px;
+margin-left: 100px;
+}
+
+.titulo-a {
+    height: 50%;
+    display: flex;
+    justify-content: left;
+    border-bottom: 2px solid white;
+
+}
+
+.titulo-b {
+    height: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+.container-titulo h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.sub-card-c p {
+    width: 80%;
+    height: auto;
+    justify-content: center;
+
+}
+
+.saiba-mais {
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(270deg, #ce03ff, #667de1);
+    color: #eee;
+    border: #100122;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.saiba-mais:hover{
+	
+	background: linear-gradient(200deg,#ce03ff,#667de1);
+	transition: 0.1s;
+	}
+
+    .imagem000{
+        position: absolute;
+        z-index: 1;
+       background-size: cover;
+    }

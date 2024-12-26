@@ -1,0 +1,28 @@
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import echolink from '../Styles/echolink.css';
+import imgg from '../Styles/soundcloud2.png'
+import imgg2 from '../Styles/seta.png'
+function LinkSoundCloud(props) {
+  
+    const handleMusicBoxClick = () => {
+        window.open(props.sound, '_blank')
+        props.updateRedirect()
+      }
+
+
+    return (
+        <div className="links-echolink-component-spotify" onClick={handleMusicBoxClick}>
+        <div className="imagem-component-links">
+            <img src={imgg} alt="" className="imagem-component-links2" />
+        </div>
+        <div className="setinha-echolink">
+        <img src={imgg2} alt="" className="imagem-component-links-seta" />
+
+        </div>
+
+    </div>
+    );
+}
+
+export default LinkSoundCloud;
