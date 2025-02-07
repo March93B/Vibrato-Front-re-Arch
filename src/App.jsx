@@ -29,6 +29,7 @@ function PrivateRoute({ path, element: Component, allowedTypes }) {
   return <Component />;
 }
 
+
 function App() {
   return (
     <Routes>
